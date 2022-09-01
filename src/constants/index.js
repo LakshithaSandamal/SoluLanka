@@ -35,9 +35,9 @@ export const services = [
         title:"IOS Application",
     },
     {
-        title:"Android Application",
+        title:"Application",
     },
     {
-        title:"IOS Application",
+        title:"Application",
     }
 ];
