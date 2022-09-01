@@ -20,7 +20,7 @@ const Service = () => {
             <div className="overflow-hidden">
                 <div className="grid grid-rows-10 xs:grid-cols-1 ss:grid-cols-2 xs:h-auto xs:max-h-[60vh] ss:h-[40vh] xs:mt-[2vh] ss:mt-[5vh]">
                     {services.map((service,index)=>(
-                        (count - 1)*4 <= index && (count*4) -1 >= index ? <ServiceBtn key={index} title={service.title}/> : ''
+                        (count - 1)*4 <= index && (count*4) -1 >= index ? <ServiceBtn key={index} data={service}/> : ''
                     ))}
                 </div>
             </div>
