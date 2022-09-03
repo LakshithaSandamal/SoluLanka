@@ -4,7 +4,7 @@ const Modal = (prop) => {
     const [visible , setVisible] = useState(true);
   return (
     <div  className={`inset-0 bg-darkPrimary bg-opacity-30 z-[199] backdrop-blur-sm flex justify-center items-center ${visible ? 'fixed' : 'hidden'}`}>
-        <div className="h-auto xs:w-[70vw] md:w-[600px] p-3 rounded-lg border-2 border-secondary bg-primary">
+        <div className="h-auto xs:w-[90vw] md:w-[600px] p-3 rounded-lg border-2 border-secondary bg-primary">
             <div className="xs:max-h-[60vh] ss:max-h-[70vh] ss:h-auto xs:overflow-y-scroll scroll">
                 {/* HEADER */}
                 <div className="flex xs:flex-col-reverse sm:flex-row">
